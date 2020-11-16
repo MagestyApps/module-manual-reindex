@@ -1,13 +1,23 @@
 {
     "name": "magestyapps/module-manual-reindex",
     "description": "Manual Reindex module for Magento 2",
+    "authors": [
+        {
+            "name": "MagestyApps",
+            "email": "alex@magestyapps.com",
+            "homepage": "https://www.magestyapps.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "alex@magestyapps.com"
+    },
     "require": {
         "php": ">=5.5.0",
-        "magento/module-catalog": ">=100.0",
-        "magento/module-ui": ">=100.0"
+        "magento/module-indexer": ">=100.0"
     },
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
